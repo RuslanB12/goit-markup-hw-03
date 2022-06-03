@@ -327,31 +327,26 @@ color: var(--accent-color);
    background-color: var(--bcg-color);
 }
 
-.main-footer .logo, .location, .contacts{
-   display: block;
-}
-
 .address{
    font-style: normal;
    line-height: 2;
 }
 
 .main-footer .logo{
+   display: block;
    margin-bottom: 20px;    
 }
 
-.location{
-   margin-bottom: 9px;
-
-   color: var(--white-color);
-}
-
-.contacts {
+.item-contact, .item-location{
    margin-bottom: 9px;
 }
 
 .contacts, .telephone {
    color: var(--link-color);
+}
+
+.location {
+   color: var(--white-color);
 }
 
 .telephone:focus,
